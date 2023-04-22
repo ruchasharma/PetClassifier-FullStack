@@ -1,0 +1,19 @@
+# Ignore Python cache files
+*.pyc
+
+# Ignore IDE project files
+.vscode/
+.idea/
+
+# Ignore environment files
+.yoloenv
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore Flask cache files
+__pycache__/
+
+# Ignore log files
+*.log

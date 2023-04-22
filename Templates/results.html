@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <img src="{{ url_for('static', filename=image_path) }}" alt="Input Image">
+    {% if prediction %}
+    <h2>Prediction:</h2>
+    <p>{{ prediction }}</p>
+    {% else %}
+    <h2>No prediction available</h2>
+    {% endif %}
+    <a href="/">Back to home</a>
+</body>
+</html>
